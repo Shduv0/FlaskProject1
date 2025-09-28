@@ -56,5 +56,7 @@ class User(Resource):
 api.add_resource(Users, "/users")
 api.add_resource(User, "/users/<int:user_id>")
 
+print("New feature test")
+
 if __name__ == "__main__":
     app.run(debug=True)
